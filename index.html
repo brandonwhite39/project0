@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Brandon White</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        	@media(min-width: 600px){
+        		h1::before{
+        			content: "Welcome to the Life of Brandon White!";
+        		}
+        	}
+
+        	@media(max-width: 599px){
+        		h1::before{
+        			content:"The Life of Brandon White";
+        		}
+        	}
+        </style>
     </head>
     <body>
-        Hello, world!
+
+        <h1 id="welcome"></h1>
+        <div class="center">
+	        <button type="button" class="btn btn-light"><a href="aboutMe.html">About me</a></button>
+	        <button type="button" class="btn btn-light"><a href="myExperience.html">My Experience</a></button>
+	        <button type="button" class="btn btn-light"><a href="hobbies.html">My Hobbies</a></button>
+	        <button type="button" class="btn btn-light"><a href="goals.html">My Goals</a></button>
+	    </div>
+	    <img src="https://frontporchmercantile.com/wp-content/uploads/2018/02/welcome.jpg" class="homepage">
     </body>
 </html>
