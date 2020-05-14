@@ -1,0 +1,63 @@
+$big:50px;
+$smaller:40px;
+
+%paddingbottom{
+	padding-bottom:20px;
+}
+
+#welcome{
+    @extend %paddingbottom;
+    padding-top:$big;
+	padding-left:$big;
+	padding-right:$big;
+    text-align: center;
+	color:indigo;
+}
+
+.title{
+    @extend %paddingbottom;
+    padding-top:$smaller;
+	padding-left:$smaller;
+    padding-right:$smaller;
+    color:grey;
+}
+
+.center {
+	text-align:center;
+
+}
+
+.indent {
+	padding:40px;
+}
+
+.homepage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	padding:20px;
+}
+
+.smallimg{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	padding:20px;
+
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse:collapse;
+	margin-left:3%;
+	margin-right:3%;
+
+}
+
+body{
+    ul{
+        padding-left:20px;
+    }
+}
