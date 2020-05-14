@@ -11,11 +11,17 @@ The main page has a @media query, the title page changes once the screen size ha
 All of the requirements from the instructions have been met.
 
 index.html - home page
+
 aboutMe.html - about me web page
+
 goals.html - goals web page
+
 hobbies.html - hobbies web page
+
 myExperience.html - my experience webpage
+
 style.scss - contains all scss code for all pages
+
 style.css - contains all converted scss code to css (used sass)
 
 Hope you enjoy and thanks for looking!
